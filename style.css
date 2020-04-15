@@ -38,22 +38,9 @@ h2{
     float: left;
 }
 
-#bio-image1 {
-    width: 200px;
-    margin: .3cm;
-}
-
-#bio-image2 {
-    width: 200px;
-    margin: .3cm;
-}
-
+#bio-image1,
+#bio-image2,
 #bio-image3 {
-    width: 200px;
-    margin: .3cm;
-}
-
-#bio-image {
     width: 200px;
     margin: .3cm;
 }
