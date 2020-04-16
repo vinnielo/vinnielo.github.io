@@ -15,6 +15,7 @@ body {
 
 header {
     background: #333;
+    text-align: center;
   }
   
 
@@ -23,7 +24,7 @@ h1 {
    margin-bottom: 20px;
     color: #eee;
     font-size: 28px;
-    text-align: 50%;
+    text-align: center;
 }
 
 h2{ 
