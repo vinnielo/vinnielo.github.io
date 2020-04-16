@@ -23,13 +23,17 @@ h1 {
    margin-bottom: 20px;
     color: #eee;
     font-size: 28px;
-    text-align: center;
+    text-align: 50%;
 }
 
 h2{ 
-    font-size: 24px;
+    font-size: 30px;
     text-align: center;
 
+}
+
+p {
+    text-align: center;
 }
 
 #main-bio, 
@@ -41,8 +45,17 @@ h2{
 #bio-image1,
 #bio-image2,
 #bio-image3 {
-    width: 200px;
+    width: 300px;
     margin: .3cm;
+}
+
+#bio-image3 {
+    margin-left: 40%;
+}
+
+#bio-image1{
+    margin-left: 15%;
+    float: left;
 }
 
 #contact-info {
@@ -60,5 +73,33 @@ a {
 }
 
 .footer {
-    font-size: 20px;
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+.fa:hover {
+    opacity: 0.7;
 }
